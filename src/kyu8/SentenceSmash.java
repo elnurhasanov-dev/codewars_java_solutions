@@ -1,6 +1,4 @@
-package codewars;
-
-import java.util.Arrays;
+package kyu8;
 
 public class SentenceSmash {
     public static void main(String[] args) {
