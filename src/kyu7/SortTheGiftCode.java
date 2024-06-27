@@ -1,4 +1,4 @@
-package codewars;
+package kyu7;
 
 import java.util.Arrays;
 
