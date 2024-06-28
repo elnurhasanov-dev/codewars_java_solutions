@@ -1,15 +1,19 @@
 package kyu7;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 
 public class RemoveTheMinimum {
     public static void main(String[] args) {
         int[] test1 = removeSmallest(new int[]{5, 3, 2, 1, 1, 4});
-        int[] test2 = removeSmallest(new int[]{});
+        int[] test2 = removeSmallest(new int[]{2, 2, 1, 2, 1,3});
 
         System.out.println(Arrays.toString(test1));
         System.out.println(Arrays.toString(test2));
+
+
     }
 
     public static int[] removeSmallest(int[] numbers) {
