@@ -12,7 +12,7 @@ public class DontGiveMeFive {
     }
 
     // Solution 1
-    public static int dontGiveMeFive(int start, int end) {
+    private static int dontGiveMeFive(int start, int end) {
         return (int) IntStream
                 .range(start, end + 1)
                 .filter(x -> !String.valueOf(x).contains("5"))
@@ -20,7 +20,7 @@ public class DontGiveMeFive {
     }
 
     // Solution 2
-    public static int dontGiveMeFive2(int start, int end) {
+    private static int dontGiveMeFive2(int start, int end) {
         int ans = 0;
         for (int i = start; i <= end; i++) {
             if (!("" + i).contains("5")) ans++;

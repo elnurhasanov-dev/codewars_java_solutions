@@ -12,12 +12,12 @@ public class SumArrays {
     }
 
     // Solution 1
-    public static double sum(double[] numbers) {
+    private static double sum(double[] numbers) {
         return Arrays.stream(numbers).sum();
     }
 
     // Solution 2
-    public static double sum2(double[] numbers) {
+    private static double sum2(double[] numbers) {
         double result = 0;
 
         for (double value : numbers) result += value;
