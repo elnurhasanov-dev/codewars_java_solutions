@@ -1,6 +1,7 @@
 package kyu7;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class SmallEnoughBeginner {
     public static void main(String[] args) {
