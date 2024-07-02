@@ -1,7 +1,5 @@
 package kyu7;
 
-import java.util.stream.IntStream;
-
 public class ExesAndOhs {
     public static void main(String[] args) {
         boolean test1 = getXO("ooxx");
@@ -23,11 +21,9 @@ public class ExesAndOhs {
     }
 
     private static boolean getXO2(String str) {
-
         long countX = str.toLowerCase().chars().filter(ch -> ch =='x').count();
         long countO = str.toLowerCase().chars().filter(ch -> ch =='o').count();
 
         return (countO==countX);
     }
-
 }
